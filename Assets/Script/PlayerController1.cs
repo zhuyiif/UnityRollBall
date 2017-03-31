@@ -11,6 +11,7 @@ public class PlayerController1 : MonoBehaviour {
 	public float slideMagnitudeX  = 0.0f;
 	public float slideMagnitudeY  = 0.0f;
 
+	//test git
 	private Rigidbody rb;
 	public float speed = 1;
 
