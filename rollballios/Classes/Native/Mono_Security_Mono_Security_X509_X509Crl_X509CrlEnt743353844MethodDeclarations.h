@@ -30,6 +30,6 @@ extern "C"  void X509CrlEntry__ctor_m3156488776 (X509CrlEntry_t743353844 * __thi
 // System.Byte[] Mono.Security.X509.X509Crl/X509CrlEntry::get_SerialNumber()
 extern "C"  ByteU5BU5D_t3397334013* X509CrlEntry_get_SerialNumber_m3603416806 (X509CrlEntry_t743353844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime Mono.Security.X509.X509Crl/X509CrlEntry::get_RevocationDate()
-extern "C"  DateTime_t693205669  X509CrlEntry_get_RevocationDate_m828452960 (X509CrlEntry_t743353844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  DateTime_t693205669  X509CrlEntry_get_RevocationDate_m1257876856 (X509CrlEntry_t743353844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Crl/X509CrlEntry::get_Extensions()
-extern "C"  X509ExtensionCollection_t1640144840 * X509CrlEntry_get_Extensions_m1330698752 (X509CrlEntry_t743353844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  X509ExtensionCollection_t1640144840 * X509CrlEntry_get_Extensions_m79989256 (X509CrlEntry_t743353844 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

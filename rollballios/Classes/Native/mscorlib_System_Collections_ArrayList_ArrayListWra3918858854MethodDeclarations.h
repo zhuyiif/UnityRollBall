@@ -49,6 +49,8 @@ extern "C"  int32_t ArrayListWrapper_get_Count_m2207944952 (ArrayListWrapper_t39
 extern "C"  int32_t ArrayListWrapper_get_Capacity_m1663188815 (ArrayListWrapper_t3918858854 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList/ArrayListWrapper::set_Capacity(System.Int32)
 extern "C"  void ArrayListWrapper_set_Capacity_m2792463350 (ArrayListWrapper_t3918858854 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.ArrayList/ArrayListWrapper::get_IsFixedSize()
+extern "C"  bool ArrayListWrapper_get_IsFixedSize_m151436744 (ArrayListWrapper_t3918858854 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.ArrayList/ArrayListWrapper::get_IsReadOnly()
 extern "C"  bool ArrayListWrapper_get_IsReadOnly_m1327238069 (ArrayListWrapper_t3918858854 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.ArrayList/ArrayListWrapper::get_IsSynchronized()

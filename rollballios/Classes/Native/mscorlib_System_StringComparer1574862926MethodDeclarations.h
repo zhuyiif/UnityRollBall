@@ -26,6 +26,8 @@ extern "C"  void StringComparer__ctor_m2275216983 (StringComparer_t1574862926 * 
 extern "C"  void StringComparer__cctor_m4285225162 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.StringComparer System.StringComparer::get_InvariantCultureIgnoreCase()
 extern "C"  StringComparer_t1574862926 * StringComparer_get_InvariantCultureIgnoreCase_m1052445386 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.StringComparer System.StringComparer::get_OrdinalIgnoreCase()
+extern "C"  StringComparer_t1574862926 * StringComparer_get_OrdinalIgnoreCase_m3428639861 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.StringComparer::Compare(System.Object,System.Object)
 extern "C"  int32_t StringComparer_Compare_m3487210178 (StringComparer_t1574862926 * __this, Il2CppObject * ___x0, Il2CppObject * ___y1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.StringComparer::Equals(System.Object,System.Object)

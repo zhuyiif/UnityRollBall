@@ -36,7 +36,7 @@ extern "C"  void RSAManaged_GenerateKeyPair_m1213111262 (RSAManaged_t3034748748 
 // System.Int32 Mono.Security.Cryptography.RSAManaged::get_KeySize()
 extern "C"  int32_t RSAManaged_get_KeySize_m3478823737 (RSAManaged_t3034748748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.Cryptography.RSAManaged::get_PublicOnly()
-extern "C"  bool RSAManaged_get_PublicOnly_m343941928 (RSAManaged_t3034748748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool RSAManaged_get_PublicOnly_m2581981140 (RSAManaged_t3034748748 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Cryptography.RSAManaged::DecryptValue(System.Byte[])
 extern "C"  ByteU5BU5D_t3397334013* RSAManaged_DecryptValue_m1225349489 (RSAManaged_t3034748748 * __this, ByteU5BU5D_t3397334013* ___rgb0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.Cryptography.RSAManaged::EncryptValue(System.Byte[])

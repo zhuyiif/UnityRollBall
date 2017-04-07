@@ -33,9 +33,9 @@ struct X509Crl_t1699034837;
 // System.Void Mono.Security.X509.X509Store::.ctor(System.String,System.Boolean)
 extern "C"  void X509Store__ctor_m914086381 (X509Store_t4028973563 * __this, String_t* ___path0, bool ___crl1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509CertificateCollection Mono.Security.X509.X509Store::get_Certificates()
-extern "C"  X509CertificateCollection_t3592472866 * X509Store_get_Certificates_m292492922 (X509Store_t4028973563 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  X509CertificateCollection_t3592472866 * X509Store_get_Certificates_m683383922 (X509Store_t4028973563 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ArrayList Mono.Security.X509.X509Store::get_Crls()
-extern "C"  ArrayList_t4252133567 * X509Store_get_Crls_m925259309 (X509Store_t4028973563 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  ArrayList_t4252133567 * X509Store_get_Crls_m1365300487 (X509Store_t4028973563 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.X509.X509Store::Load(System.String)
 extern "C"  ByteU5BU5D_t3397334013* X509Store_Load_m3792048208 (X509Store_t4028973563 * __this, String_t* ___filename0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Certificate Mono.Security.X509.X509Store::LoadCertificate(System.String)

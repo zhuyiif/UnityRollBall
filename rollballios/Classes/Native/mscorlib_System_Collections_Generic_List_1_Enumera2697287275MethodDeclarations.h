@@ -27,6 +27,6 @@
 // System.Void System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::VerifyState()
 #define Enumerator_VerifyState_m2071769478(__this, method) ((  void (*) (Enumerator_t2697287275 *, const MethodInfo*))Enumerator_VerifyState_m825848279_gshared)(__this, method)
 // System.Boolean System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::MoveNext()
-#define Enumerator_MoveNext_m3298328334(__this, method) ((  bool (*) (Enumerator_t2697287275 *, const MethodInfo*))Enumerator_MoveNext_m44995089_gshared)(__this, method)
+#define Enumerator_MoveNext_m2913526710(__this, method) ((  bool (*) (Enumerator_t2697287275 *, const MethodInfo*))Enumerator_MoveNext_m44995089_gshared)(__this, method)
 // T System.Collections.Generic.List`1/Enumerator<UnityEngine.Events.PersistentCall>::get_Current()
-#define Enumerator_get_Current_m1312643687(__this, method) ((  PersistentCall_t3793436469 * (*) (Enumerator_t2697287275 *, const MethodInfo*))Enumerator_get_Current_m3108634708_gshared)(__this, method)
+#define Enumerator_get_Current_m2948343100(__this, method) ((  PersistentCall_t3793436469 * (*) (Enumerator_t2697287275 *, const MethodInfo*))Enumerator_get_Current_m3108634708_gshared)(__this, method)

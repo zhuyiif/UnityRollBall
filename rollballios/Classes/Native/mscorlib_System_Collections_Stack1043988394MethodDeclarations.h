@@ -37,6 +37,8 @@ extern "C"  void Stack__ctor_m1075268731 (Stack_t1043988394 * __this, int32_t __
 extern "C"  void Stack_Resize_m3339638113 (Stack_t1043988394 * __this, int32_t ___ncapacity0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.Stack::get_Count()
 extern "C"  int32_t Stack_get_Count_m595326012 (Stack_t1043988394 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Stack::get_IsSynchronized()
+extern "C"  bool Stack_get_IsSynchronized_m4251661387 (Stack_t1043988394 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Stack::get_SyncRoot()
 extern "C"  Il2CppObject * Stack_get_SyncRoot_m3168081079 (Stack_t1043988394 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Stack::Clear()

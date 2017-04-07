@@ -33,8 +33,8 @@ extern "C"  bool X509CertificateEnumerator_System_Collections_IEnumerator_MoveNe
 // System.Void Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::System.Collections.IEnumerator.Reset()
 extern "C"  void X509CertificateEnumerator_System_Collections_IEnumerator_Reset_m3929249334 (X509CertificateEnumerator_t3487770523 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Certificate Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::get_Current()
-extern "C"  X509Certificate_t324051958 * X509CertificateEnumerator_get_Current_m3745394949 (X509CertificateEnumerator_t3487770523 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  X509Certificate_t324051958 * X509CertificateEnumerator_get_Current_m3129374511 (X509CertificateEnumerator_t3487770523 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::MoveNext()
-extern "C"  bool X509CertificateEnumerator_MoveNext_m1422952050 (X509CertificateEnumerator_t3487770523 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool X509CertificateEnumerator_MoveNext_m4060814498 (X509CertificateEnumerator_t3487770523 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.X509.X509CertificateCollection/X509CertificateEnumerator::Reset()
 extern "C"  void X509CertificateEnumerator_Reset_m4167796875 (X509CertificateEnumerator_t3487770523 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

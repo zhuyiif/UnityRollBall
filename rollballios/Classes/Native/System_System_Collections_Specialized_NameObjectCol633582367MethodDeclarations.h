@@ -31,6 +31,8 @@ struct IEnumerator_t1466026749;
 extern "C"  void KeysCollection__ctor_m847580183 (KeysCollection_t633582367 * __this, NameObjectCollectionBase_t2034248631 * ___collection0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Specialized.NameObjectCollectionBase/KeysCollection::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
 extern "C"  void KeysCollection_System_Collections_ICollection_CopyTo_m1079819835 (KeysCollection_t633582367 * __this, Il2CppArray * ___array0, int32_t ___arrayIndex1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Specialized.NameObjectCollectionBase/KeysCollection::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool KeysCollection_System_Collections_ICollection_get_IsSynchronized_m2298576971 (KeysCollection_t633582367 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Specialized.NameObjectCollectionBase/KeysCollection::System.Collections.ICollection.get_SyncRoot()
 extern "C"  Il2CppObject * KeysCollection_System_Collections_ICollection_get_SyncRoot_m2289369147 (KeysCollection_t633582367 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.Specialized.NameObjectCollectionBase/KeysCollection::get_Count()

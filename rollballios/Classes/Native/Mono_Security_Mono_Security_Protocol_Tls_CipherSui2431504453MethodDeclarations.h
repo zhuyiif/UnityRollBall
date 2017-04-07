@@ -47,6 +47,8 @@ extern "C"  void CipherSuiteCollection__ctor_m2154226461 (CipherSuiteCollection_
 extern "C"  Il2CppObject * CipherSuiteCollection_System_Collections_IList_get_Item_m218755780 (CipherSuiteCollection_t2431504453 * __this, int32_t ___index0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.IList.set_Item(System.Int32,System.Object)
 extern "C"  void CipherSuiteCollection_System_Collections_IList_set_Item_m750275607 (CipherSuiteCollection_t2431504453 * __this, int32_t ___index0, Il2CppObject * ___value1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool CipherSuiteCollection_System_Collections_ICollection_get_IsSynchronized_m36679989 (CipherSuiteCollection_t2431504453 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.ICollection.get_SyncRoot()
 extern "C"  Il2CppObject * CipherSuiteCollection_System_Collections_ICollection_get_SyncRoot_m2818114049 (CipherSuiteCollection_t2431504453 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.IEnumerator Mono.Security.Protocol.Tls.CipherSuiteCollection::System.Collections.IEnumerable.GetEnumerator()
@@ -73,6 +75,10 @@ extern "C"  void CipherSuiteCollection_set_Item_m1064755671 (CipherSuiteCollecti
 extern "C"  CipherSuite_t491456551 * CipherSuiteCollection_get_Item_m2606225922 (CipherSuiteCollection_t2431504453 * __this, int16_t ___code0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 Mono.Security.Protocol.Tls.CipherSuiteCollection::get_Count()
 extern "C"  int32_t CipherSuiteCollection_get_Count_m1700100413 (CipherSuiteCollection_t2431504453 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Mono.Security.Protocol.Tls.CipherSuiteCollection::get_IsFixedSize()
+extern "C"  bool CipherSuiteCollection_get_IsFixedSize_m2849280449 (CipherSuiteCollection_t2431504453 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean Mono.Security.Protocol.Tls.CipherSuiteCollection::get_IsReadOnly()
+extern "C"  bool CipherSuiteCollection_get_IsReadOnly_m2233332798 (CipherSuiteCollection_t2431504453 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.CipherSuiteCollection::CopyTo(System.Array,System.Int32)
 extern "C"  void CipherSuiteCollection_CopyTo_m869893074 (CipherSuiteCollection_t2431504453 * __this, Il2CppArray * ___array0, int32_t ___index1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void Mono.Security.Protocol.Tls.CipherSuiteCollection::Clear()

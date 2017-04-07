@@ -35,6 +35,8 @@ extern "C"  void OidCollection_System_Collections_ICollection_CopyTo_m1176626933
 extern "C"  Il2CppObject * OidCollection_System_Collections_IEnumerable_GetEnumerator_m2652059920 (OidCollection_t3790243618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.OidCollection::get_Count()
 extern "C"  int32_t OidCollection_get_Count_m1266492637 (OidCollection_t3790243618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Security.Cryptography.OidCollection::get_IsSynchronized()
+extern "C"  bool OidCollection_get_IsSynchronized_m3060322796 (OidCollection_t3790243618 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.Oid System.Security.Cryptography.OidCollection::get_Item(System.Int32)
 extern "C"  Oid_t3221867120 * OidCollection_get_Item_m1091387424 (OidCollection_t3790243618 * __this, int32_t ___index0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Cryptography.OidCollection::get_SyncRoot()

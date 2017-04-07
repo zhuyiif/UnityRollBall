@@ -43,6 +43,8 @@ extern "C"  IntervalCollection_t4130821325 * IntervalCollection_GetMetaCollectio
 extern "C"  void IntervalCollection_Optimize_m2229933552 (IntervalCollection_t4130821325 * __this, int32_t ___begin0, int32_t ___end1, IntervalCollection_t4130821325 * ___meta2, CostDelegate_t1824458113 * ___cost_del3, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.IntervalCollection::get_Count()
 extern "C"  int32_t IntervalCollection_get_Count_m2594835678 (IntervalCollection_t4130821325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Text.RegularExpressions.IntervalCollection::get_IsSynchronized()
+extern "C"  bool IntervalCollection_get_IsSynchronized_m3275151195 (IntervalCollection_t4130821325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Text.RegularExpressions.IntervalCollection::get_SyncRoot()
 extern "C"  Il2CppObject * IntervalCollection_get_SyncRoot_m1793599803 (IntervalCollection_t4130821325 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.IntervalCollection::CopyTo(System.Array,System.Int32)

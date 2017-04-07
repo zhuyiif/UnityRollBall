@@ -31,6 +31,7 @@ struct CultureInfo_t3500843524;
 #include "mscorlib_System_Globalization_UnicodeCategory682236799.h"
 #include "mscorlib_System_String2029220233.h"
 #include "mscorlib_System_Globalization_CultureInfo3500843524.h"
+#include "mscorlib_System_TypeCode2536926201.h"
 
 // System.Void System.Char::.cctor()
 extern "C"  void Char__cctor_m1761604920 (Il2CppObject * __this /* static, unused */, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -88,6 +89,8 @@ extern "C"  bool Char_IsLetterOrDigit_m2164758816 (Il2CppObject * __this /* stat
 extern "C"  bool Char_IsLower_m569373973 (Il2CppObject * __this /* static, unused */, Il2CppChar ___c0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Char::IsSurrogate(System.Char)
 extern "C"  bool Char_IsSurrogate_m2088974128 (Il2CppObject * __this /* static, unused */, Il2CppChar ___c0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Char::IsUpper(System.Char)
+extern "C"  bool Char_IsUpper_m4083577610 (Il2CppObject * __this /* static, unused */, Il2CppChar ___c0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Char::IsWhiteSpace(System.Char)
 extern "C"  bool Char_IsWhiteSpace_m1507160293 (Il2CppObject * __this /* static, unused */, Il2CppChar ___c0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Char::IsWhiteSpace(System.String,System.Int32)
@@ -110,3 +113,5 @@ extern "C"  Il2CppChar Char_ToUpperInvariant_m3983736813 (Il2CppObject * __this 
 extern "C"  String_t* Char_ToString_m1976753030 (Il2CppChar* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Char::ToString(System.IFormatProvider)
 extern "C"  String_t* Char_ToString_m1401375624 (Il2CppChar* __this, Il2CppObject * ___provider0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.TypeCode System.Char::GetTypeCode()
+extern "C"  int32_t Char_GetTypeCode_m2251277629 (Il2CppChar* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

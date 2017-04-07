@@ -31,6 +31,8 @@ struct IEnumerator_t1466026749;
 extern "C"  void CaptureCollection__ctor_m629636494 (CaptureCollection_t1671345504 * __this, int32_t ___n0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.CaptureCollection::get_Count()
 extern "C"  int32_t CaptureCollection_get_Count_m3083164873 (CaptureCollection_t1671345504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Text.RegularExpressions.CaptureCollection::get_IsSynchronized()
+extern "C"  bool CaptureCollection_get_IsSynchronized_m815216600 (CaptureCollection_t1671345504 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.CaptureCollection::SetValue(System.Text.RegularExpressions.Capture,System.Int32)
 extern "C"  void CaptureCollection_SetValue_m3422959110 (CaptureCollection_t1671345504 * __this, Capture_t4157900610 * ___cap0, int32_t ___i1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Text.RegularExpressions.CaptureCollection::get_SyncRoot()

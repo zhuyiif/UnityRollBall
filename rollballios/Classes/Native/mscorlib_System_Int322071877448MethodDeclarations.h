@@ -34,6 +34,7 @@ struct NumberFormatInfo_t104580544;
 #include "mscorlib_System_Exception1927440687.h"
 #include "mscorlib_System_Globalization_NumberStyles3408984435.h"
 #include "mscorlib_System_Globalization_NumberFormatInfo104580544.h"
+#include "mscorlib_System_TypeCode2536926201.h"
 
 // System.Boolean System.Int32::System.IConvertible.ToBoolean(System.IFormatProvider)
 extern "C"  bool Int32_System_IConvertible_ToBoolean_m1562905675 (int32_t* __this, Il2CppObject * ___provider0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -115,3 +116,5 @@ extern "C"  String_t* Int32_ToString_m526790770 (int32_t* __this, Il2CppObject *
 extern "C"  String_t* Int32_ToString_m1064459878 (int32_t* __this, String_t* ___format0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Int32::ToString(System.String,System.IFormatProvider)
 extern "C"  String_t* Int32_ToString_m1128850770 (int32_t* __this, String_t* ___format0, Il2CppObject * ___provider1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.TypeCode System.Int32::GetTypeCode()
+extern "C"  int32_t Int32_GetTypeCode_m3811463295 (int32_t* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

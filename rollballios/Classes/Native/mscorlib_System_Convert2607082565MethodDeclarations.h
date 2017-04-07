@@ -406,6 +406,8 @@ extern "C"  uint32_t Convert_ToUInt32_m776714429 (Il2CppObject * __this /* stati
 extern "C"  uint32_t Convert_ToUInt32_m4090244982 (Il2CppObject * __this /* static, unused */, uint64_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.UInt16)
 extern "C"  uint32_t Convert_ToUInt32_m3391339025 (Il2CppObject * __this /* static, unused */, uint16_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.UInt32 System.Convert::ToUInt32(System.Object)
+extern "C"  uint32_t Convert_ToUInt32_m1952053309 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt32 System.Convert::ToUInt32(System.Object,System.IFormatProvider)
 extern "C"  uint32_t Convert_ToUInt32_m817681977 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___value0, Il2CppObject * ___provider1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.UInt64 System.Convert::ToUInt64(System.Boolean)

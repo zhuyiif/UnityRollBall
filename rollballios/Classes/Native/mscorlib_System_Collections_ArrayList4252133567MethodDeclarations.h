@@ -58,6 +58,8 @@ extern "C"  int32_t ArrayList_get_Count_m523955479 (ArrayList_t4252133567 * __th
 extern "C"  int32_t ArrayList_get_Capacity_m1776194914 (ArrayList_t4252133567 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.ArrayList::set_Capacity(System.Int32)
 extern "C"  void ArrayList_set_Capacity_m592558035 (ArrayList_t4252133567 * __this, int32_t ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.ArrayList::get_IsFixedSize()
+extern "C"  bool ArrayList_get_IsFixedSize_m1344869099 (ArrayList_t4252133567 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.ArrayList::get_IsReadOnly()
 extern "C"  bool ArrayList_get_IsReadOnly_m2706543912 (ArrayList_t4252133567 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.ArrayList::get_IsSynchronized()

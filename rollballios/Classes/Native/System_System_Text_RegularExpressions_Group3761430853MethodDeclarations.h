@@ -33,4 +33,4 @@ extern "C"  void Group__cctor_m3460156167 (Il2CppObject * __this /* static, unus
 // System.Text.RegularExpressions.CaptureCollection System.Text.RegularExpressions.Group::get_Captures()
 extern "C"  CaptureCollection_t1671345504 * Group_get_Captures_m2440248304 (Group_t3761430853 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Text.RegularExpressions.Group::get_Success()
-extern "C"  bool Group_get_Success_m1068765996 (Group_t3761430853 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool Group_get_Success_m2001463544 (Group_t3761430853 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

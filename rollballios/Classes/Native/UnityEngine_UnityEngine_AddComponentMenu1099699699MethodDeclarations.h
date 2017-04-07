@@ -22,3 +22,5 @@ struct String_t;
 
 // System.Void UnityEngine.AddComponentMenu::.ctor(System.String)
 extern "C"  void AddComponentMenu__ctor_m2231330368 (AddComponentMenu_t1099699699 * __this, String_t* ___menuName0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Void UnityEngine.AddComponentMenu::.ctor(System.String,System.Int32)
+extern "C"  void AddComponentMenu__ctor_m648737891 (AddComponentMenu_t1099699699 * __this, String_t* ___menuName0, int32_t ___order1, const MethodInfo* method) IL2CPP_METHOD_ATTR;

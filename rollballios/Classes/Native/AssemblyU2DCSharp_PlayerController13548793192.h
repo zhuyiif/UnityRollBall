@@ -12,6 +12,8 @@
 
 // UnityEngine.Rigidbody
 struct Rigidbody_t4233889191;
+// UnityEngine.UI.Text
+struct Text_t356221433;
 
 #include "UnityEngine_UnityEngine_MonoBehaviour1158329972.h"
 #include "UnityEngine_UnityEngine_Vector22243707579.h"
@@ -42,6 +44,12 @@ public:
 	float ___speed_8;
 	// System.Single PlayerController1::rotationRate
 	float ___rotationRate_9;
+	// UnityEngine.UI.Text PlayerController1::countText
+	Text_t356221433 * ___countText_10;
+	// UnityEngine.UI.Text PlayerController1::winText
+	Text_t356221433 * ___winText_11;
+	// System.Int32 PlayerController1::count
+	int32_t ___count_12;
 
 public:
 	inline static int32_t get_offset_of_leftFingerPos_2() { return static_cast<int32_t>(offsetof(PlayerController1_t3548793192, ___leftFingerPos_2)); }
@@ -107,6 +115,32 @@ public:
 	inline void set_rotationRate_9(float value)
 	{
 		___rotationRate_9 = value;
+	}
+
+	inline static int32_t get_offset_of_countText_10() { return static_cast<int32_t>(offsetof(PlayerController1_t3548793192, ___countText_10)); }
+	inline Text_t356221433 * get_countText_10() const { return ___countText_10; }
+	inline Text_t356221433 ** get_address_of_countText_10() { return &___countText_10; }
+	inline void set_countText_10(Text_t356221433 * value)
+	{
+		___countText_10 = value;
+		Il2CppCodeGenWriteBarrier(&___countText_10, value);
+	}
+
+	inline static int32_t get_offset_of_winText_11() { return static_cast<int32_t>(offsetof(PlayerController1_t3548793192, ___winText_11)); }
+	inline Text_t356221433 * get_winText_11() const { return ___winText_11; }
+	inline Text_t356221433 ** get_address_of_winText_11() { return &___winText_11; }
+	inline void set_winText_11(Text_t356221433 * value)
+	{
+		___winText_11 = value;
+		Il2CppCodeGenWriteBarrier(&___winText_11, value);
+	}
+
+	inline static int32_t get_offset_of_count_12() { return static_cast<int32_t>(offsetof(PlayerController1_t3548793192, ___count_12)); }
+	inline int32_t get_count_12() const { return ___count_12; }
+	inline int32_t* get_address_of_count_12() { return &___count_12; }
+	inline void set_count_12(int32_t value)
+	{
+		___count_12 = value;
 	}
 };
 

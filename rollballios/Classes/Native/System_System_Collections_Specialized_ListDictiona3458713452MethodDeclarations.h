@@ -46,6 +46,8 @@ extern "C"  DictionaryNode_t2725637098 * ListDictionary_FindEntry_m432748847 (Li
 extern "C"  void ListDictionary_AddImpl_m2604632092 (ListDictionary_t3458713452 * __this, Il2CppObject * ___key0, Il2CppObject * ___value1, DictionaryNode_t2725637098 * ___prev2, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.Specialized.ListDictionary::get_Count()
 extern "C"  int32_t ListDictionary_get_Count_m2397535557 (ListDictionary_t3458713452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Specialized.ListDictionary::get_IsSynchronized()
+extern "C"  bool ListDictionary_get_IsSynchronized_m2961717108 (ListDictionary_t3458713452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Specialized.ListDictionary::get_SyncRoot()
 extern "C"  Il2CppObject * ListDictionary_get_SyncRoot_m1212356752 (ListDictionary_t3458713452 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.Specialized.ListDictionary::CopyTo(System.Array,System.Int32)

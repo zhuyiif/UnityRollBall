@@ -42,6 +42,8 @@ extern "C"  void X509ExtensionCollection_System_Collections_ICollection_CopyTo_m
 extern "C"  Il2CppObject * X509ExtensionCollection_System_Collections_IEnumerable_GetEnumerator_m1813422183 (X509ExtensionCollection_t650873211 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Security.Cryptography.X509Certificates.X509ExtensionCollection::get_Count()
 extern "C"  int32_t X509ExtensionCollection_get_Count_m3798021134 (X509ExtensionCollection_t650873211 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Security.Cryptography.X509Certificates.X509ExtensionCollection::get_IsSynchronized()
+extern "C"  bool X509ExtensionCollection_get_IsSynchronized_m882667483 (X509ExtensionCollection_t650873211 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Security.Cryptography.X509Certificates.X509ExtensionCollection::get_SyncRoot()
 extern "C"  Il2CppObject * X509ExtensionCollection_get_SyncRoot_m3539525515 (X509ExtensionCollection_t650873211 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Security.Cryptography.X509Certificates.X509Extension System.Security.Cryptography.X509Certificates.X509ExtensionCollection::get_Item(System.String)

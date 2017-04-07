@@ -24,10 +24,10 @@ struct String_t;
 struct FieldInfo_t;
 // System.Reflection.MethodInfo
 struct MethodInfo_t;
-// System.Reflection.Binder
-struct Binder_t3404612058;
 // System.Type[]
 struct TypeU5BU5D_t1664964607;
+// System.Reflection.Binder
+struct Binder_t3404612058;
 // System.Reflection.ParameterModifier[]
 struct ParameterModifierU5BU5D_t963192633;
 // System.Reflection.PropertyInfo
@@ -141,6 +141,8 @@ extern "C"  int32_t Type_GetHashCode_m1150382148 (Type_t * __this, const MethodI
 extern "C"  MethodInfo_t * Type_GetMethod_m1197504218 (Type_t * __this, String_t* ___name0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Type::GetMethod(System.String,System.Reflection.BindingFlags)
 extern "C"  MethodInfo_t * Type_GetMethod_m475234662 (Type_t * __this, String_t* ___name0, int32_t ___bindingAttr1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Reflection.MethodInfo System.Type::GetMethod(System.String,System.Type[])
+extern "C"  MethodInfo_t * Type_GetMethod_m2079823229 (Type_t * __this, String_t* ___name0, TypeU5BU5D_t1664964607* ___types1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Type::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[])
 extern "C"  MethodInfo_t * Type_GetMethod_m1930231379 (Type_t * __this, String_t* ___name0, int32_t ___bindingAttr1, Binder_t3404612058 * ___binder2, TypeU5BU5D_t1664964607* ___types3, ParameterModifierU5BU5D_t963192633* ___modifiers4, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Reflection.MethodInfo System.Type::GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Reflection.CallingConventions,System.Type[],System.Reflection.ParameterModifier[])
@@ -193,5 +195,9 @@ extern "C"  Type_t * Type_MakeGenericType_m2765875033 (Type_t * __this, TypeU5BU
 extern "C"  bool Type_get_IsGenericParameter_m161434704 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Type::get_IsNested()
 extern "C"  bool Type_get_IsNested_m3671396733 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Type::make_byref_type()
+extern "C"  Type_t * Type_make_byref_type_m1778749855 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Type::MakeByRefType()
+extern "C"  Type_t * Type_MakeByRefType_m1323101575 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object[] System.Type::GetPseudoCustomAttributes()
 extern "C"  ObjectU5BU5D_t3614634134* Type_GetPseudoCustomAttributes_m869578 (Type_t * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

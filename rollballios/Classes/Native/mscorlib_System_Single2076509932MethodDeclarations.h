@@ -27,6 +27,7 @@ struct String_t;
 #include "mscorlib_System_Type1303803226.h"
 #include "mscorlib_System_Object2689449295.h"
 #include "mscorlib_System_String2029220233.h"
+#include "mscorlib_System_TypeCode2536926201.h"
 
 // System.Boolean System.Single::System.IConvertible.ToBoolean(System.IFormatProvider)
 extern "C"  bool Single_System_IConvertible_ToBoolean_m2661548087 (float* __this, Il2CppObject * ___provider0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
@@ -84,3 +85,5 @@ extern "C"  String_t* Single_ToString_m1813392066 (float* __this, const MethodIn
 extern "C"  String_t* Single_ToString_m1229799376 (float* __this, Il2CppObject * ___provider0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String System.Single::ToString(System.String,System.IFormatProvider)
 extern "C"  String_t* Single_ToString_m3667608664 (float* __this, String_t* ___format0, Il2CppObject * ___provider1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.TypeCode System.Single::GetTypeCode()
+extern "C"  int32_t Single_GetTypeCode_m1946166103 (float* __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

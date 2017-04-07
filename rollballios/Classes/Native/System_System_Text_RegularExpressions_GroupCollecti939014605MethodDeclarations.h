@@ -31,8 +31,10 @@ struct IEnumerator_t1466026749;
 extern "C"  void GroupCollection__ctor_m3255346384 (GroupCollection_t939014605 * __this, int32_t ___n0, int32_t ___gap1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Text.RegularExpressions.GroupCollection::get_Count()
 extern "C"  int32_t GroupCollection_get_Count_m3713315052 (GroupCollection_t939014605 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Text.RegularExpressions.GroupCollection::get_IsSynchronized()
+extern "C"  bool GroupCollection_get_IsSynchronized_m1100663675 (GroupCollection_t939014605 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Text.RegularExpressions.Group System.Text.RegularExpressions.GroupCollection::get_Item(System.Int32)
-extern "C"  Group_t3761430853 * GroupCollection_get_Item_m3627349778 (GroupCollection_t939014605 * __this, int32_t ___i0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  Group_t3761430853 * GroupCollection_get_Item_m3695725918 (GroupCollection_t939014605 * __this, int32_t ___i0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Text.RegularExpressions.GroupCollection::SetValue(System.Text.RegularExpressions.Group,System.Int32)
 extern "C"  void GroupCollection_SetValue_m3560779396 (GroupCollection_t939014605 * __this, Group_t3761430853 * ___g0, int32_t ___i1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Text.RegularExpressions.GroupCollection::get_SyncRoot()

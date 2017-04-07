@@ -81,6 +81,8 @@ extern "C"  void Hashtable_set_comparer_m3180045824 (Hashtable_t909839986 * __th
 extern "C"  void Hashtable_set_hcp_m61069857 (Hashtable_t909839986 * __this, Il2CppObject * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.Hashtable::get_Count()
 extern "C"  int32_t Hashtable_get_Count_m830088216 (Hashtable_t909839986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.Hashtable::get_IsSynchronized()
+extern "C"  bool Hashtable_get_IsSynchronized_m836780937 (Hashtable_t909839986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.Hashtable::get_SyncRoot()
 extern "C"  Il2CppObject * Hashtable_get_SyncRoot_m3737073257 (Hashtable_t909839986 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Collections.ICollection System.Collections.Hashtable::get_Keys()

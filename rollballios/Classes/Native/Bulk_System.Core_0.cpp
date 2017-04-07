@@ -25,6 +25,10 @@ struct ByteU5BU5D_t3397334013;
 struct SymmetricTransform_t1394030014;
 // System.Security.Cryptography.SymmetricAlgorithm
 struct SymmetricAlgorithm_t1108166522;
+// System.Object
+struct Il2CppObject;
+// System.MonoTODOAttribute
+struct MonoTODOAttribute_t3487514021;
 // System.Runtime.CompilerServices.ExtensionAttribute
 struct ExtensionAttribute_t1840441203;
 // System.Security.Cryptography.Aes
@@ -49,6 +53,8 @@ struct UInt32U5BU5D_t59386216;
 #include "System_Core_U3CPrivateImplementationDetailsU3E_U242672183894MethodDeclarations.h"
 #include "System_Core_U3CPrivateImplementationDetailsU3E_U24A116038562.h"
 #include "System_Core_U3CPrivateImplementationDetailsU3E_U24A116038562MethodDeclarations.h"
+#include "System_Core_U3CPrivateImplementationDetailsU3E_U242844921915.h"
+#include "System_Core_U3CPrivateImplementationDetailsU3E_U242844921915MethodDeclarations.h"
 #include "System_Core_U3CPrivateImplementationDetailsU3E_U242038352954.h"
 #include "System_Core_U3CPrivateImplementationDetailsU3E_U242038352954MethodDeclarations.h"
 #include "System_Core_Locale4255929014.h"
@@ -90,9 +96,15 @@ struct UInt32U5BU5D_t59386216;
 #include "mscorlib_System_ObjectDisposedException2695136451MethodDeclarations.h"
 #include "mscorlib_System_ObjectDisposedException2695136451.h"
 #include "mscorlib_System_Security_Cryptography_PaddingMode3032142640.h"
+#include "System_Core_System_Linq_Check578192424.h"
+#include "System_Core_System_Linq_Check578192424MethodDeclarations.h"
+#include "System_Core_System_Linq_Enumerable2148412300.h"
+#include "System_Core_System_Linq_Enumerable2148412300MethodDeclarations.h"
+#include "System_Core_System_MonoTODOAttribute3487514019.h"
+#include "System_Core_System_MonoTODOAttribute3487514019MethodDeclarations.h"
+#include "mscorlib_System_Attribute542643598MethodDeclarations.h"
 #include "System_Core_System_Runtime_CompilerServices_Extens1840441203.h"
 #include "System_Core_System_Runtime_CompilerServices_Extens1840441203MethodDeclarations.h"
-#include "mscorlib_System_Attribute542643598MethodDeclarations.h"
 #include "System_Core_System_Security_Cryptography_Aes2354947465.h"
 #include "System_Core_System_Security_Cryptography_Aes2354947465MethodDeclarations.h"
 #include "mscorlib_System_Security_Cryptography_KeySizes3144736271MethodDeclarations.h"
@@ -2163,6 +2175,59 @@ IL_0034:
 		return L_13;
 	}
 }
+// System.Void System.Linq.Check::SourceAndPredicate(System.Object,System.Object)
+extern Il2CppClass* ArgumentNullException_t628810857_il2cpp_TypeInfo_var;
+extern Il2CppCodeGenString* _stringLiteral4211174801;
+extern Il2CppCodeGenString* _stringLiteral744571857;
+extern const uint32_t Check_SourceAndPredicate_m2063478409_MetadataUsageId;
+extern "C"  void Check_SourceAndPredicate_m2063478409 (Il2CppObject * __this /* static, unused */, Il2CppObject * ___source0, Il2CppObject * ___predicate1, const MethodInfo* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_method (Check_SourceAndPredicate_m2063478409_MetadataUsageId);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Il2CppObject * L_0 = ___source0;
+		if (L_0)
+		{
+			goto IL_0011;
+		}
+	}
+	{
+		ArgumentNullException_t628810857 * L_1 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m3380712306(L_1, _stringLiteral4211174801, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1);
+	}
+
+IL_0011:
+	{
+		Il2CppObject * L_2 = ___predicate1;
+		if (L_2)
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		ArgumentNullException_t628810857 * L_3 = (ArgumentNullException_t628810857 *)il2cpp_codegen_object_new(ArgumentNullException_t628810857_il2cpp_TypeInfo_var);
+		ArgumentNullException__ctor_m3380712306(L_3, _stringLiteral744571857, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3);
+	}
+
+IL_0022:
+	{
+		return;
+	}
+}
+// System.Void System.MonoTODOAttribute::.ctor()
+extern "C"  void MonoTODOAttribute__ctor_m1425119999 (MonoTODOAttribute_t3487514021 * __this, const MethodInfo* method)
+{
+	{
+		Attribute__ctor_m1730479323(__this, /*hidden argument*/NULL);
+		return;
+	}
+}
 // System.Void System.Runtime.CompilerServices.ExtensionAttribute::.ctor()
 extern "C"  void ExtensionAttribute__ctor_m1028297080 (ExtensionAttribute_t1840441203 * __this, const MethodInfo* method)
 {
@@ -2856,17 +2921,17 @@ IL_02ef:
 extern Il2CppClass* UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var;
 extern Il2CppClass* AesTransform_t3733702461_il2cpp_TypeInfo_var;
 extern Il2CppClass* ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D1_0_FieldInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D2_1_FieldInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D3_2_FieldInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D4_3_FieldInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D5_4_FieldInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D6_5_FieldInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D7_6_FieldInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D8_7_FieldInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D9_8_FieldInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D10_9_FieldInfo_var;
-extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D11_10_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D1_1_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D2_2_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D3_3_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D4_4_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D5_5_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D6_6_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D7_7_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D8_8_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D9_9_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D10_10_FieldInfo_var;
+extern FieldInfo* U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D11_11_FieldInfo_var;
 extern const uint32_t AesTransform__cctor_m619532760_MetadataUsageId;
 extern "C"  void AesTransform__cctor_m619532760 (Il2CppObject * __this /* static, unused */, const MethodInfo* method)
 {
@@ -2878,37 +2943,37 @@ extern "C"  void AesTransform__cctor_m619532760 (Il2CppObject * __this /* static
 	}
 	{
 		UInt32U5BU5D_t59386216* L_0 = ((UInt32U5BU5D_t59386216*)SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, (uint32_t)((int32_t)30)));
-		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D1_0_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_0, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D1_1_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t3733702461_StaticFields*)AesTransform_t3733702461_il2cpp_TypeInfo_var->static_fields)->set_Rcon_15(L_0);
 		ByteU5BU5D_t3397334013* L_1 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_1, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D2_1_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_1, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D2_2_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t3733702461_StaticFields*)AesTransform_t3733702461_il2cpp_TypeInfo_var->static_fields)->set_SBox_16(L_1);
 		ByteU5BU5D_t3397334013* L_2 = ((ByteU5BU5D_t3397334013*)SZArrayNew(ByteU5BU5D_t3397334013_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_2, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D3_2_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_2, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D3_3_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t3733702461_StaticFields*)AesTransform_t3733702461_il2cpp_TypeInfo_var->static_fields)->set_iSBox_17(L_2);
 		UInt32U5BU5D_t59386216* L_3 = ((UInt32U5BU5D_t59386216*)SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_3, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D4_3_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_3, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D4_4_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t3733702461_StaticFields*)AesTransform_t3733702461_il2cpp_TypeInfo_var->static_fields)->set_T0_18(L_3);
 		UInt32U5BU5D_t59386216* L_4 = ((UInt32U5BU5D_t59386216*)SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_4, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D5_4_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_4, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D5_5_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t3733702461_StaticFields*)AesTransform_t3733702461_il2cpp_TypeInfo_var->static_fields)->set_T1_19(L_4);
 		UInt32U5BU5D_t59386216* L_5 = ((UInt32U5BU5D_t59386216*)SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_5, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D6_5_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_5, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D6_6_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t3733702461_StaticFields*)AesTransform_t3733702461_il2cpp_TypeInfo_var->static_fields)->set_T2_20(L_5);
 		UInt32U5BU5D_t59386216* L_6 = ((UInt32U5BU5D_t59386216*)SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_6, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D7_6_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_6, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D7_7_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t3733702461_StaticFields*)AesTransform_t3733702461_il2cpp_TypeInfo_var->static_fields)->set_T3_21(L_6);
 		UInt32U5BU5D_t59386216* L_7 = ((UInt32U5BU5D_t59386216*)SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_7, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D8_7_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_7, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D8_8_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t3733702461_StaticFields*)AesTransform_t3733702461_il2cpp_TypeInfo_var->static_fields)->set_iT0_22(L_7);
 		UInt32U5BU5D_t59386216* L_8 = ((UInt32U5BU5D_t59386216*)SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_8, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D9_8_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_8, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D9_9_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t3733702461_StaticFields*)AesTransform_t3733702461_il2cpp_TypeInfo_var->static_fields)->set_iT1_23(L_8);
 		UInt32U5BU5D_t59386216* L_9 = ((UInt32U5BU5D_t59386216*)SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_9, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D10_9_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_9, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D10_10_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t3733702461_StaticFields*)AesTransform_t3733702461_il2cpp_TypeInfo_var->static_fields)->set_iT2_24(L_9);
 		UInt32U5BU5D_t59386216* L_10 = ((UInt32U5BU5D_t59386216*)SZArrayNew(UInt32U5BU5D_t59386216_il2cpp_TypeInfo_var, (uint32_t)((int32_t)256)));
-		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_10, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D11_10_FieldInfo_var), /*hidden argument*/NULL);
+		RuntimeHelpers_InitializeArray_m3920580167(NULL /*static, unused*/, (Il2CppArray *)(Il2CppArray *)L_10, LoadFieldToken(U3CPrivateImplementationDetailsU3E_t1486305140____U24U24fieldU2D11_11_FieldInfo_var), /*hidden argument*/NULL);
 		((AesTransform_t3733702461_StaticFields*)AesTransform_t3733702461_il2cpp_TypeInfo_var->static_fields)->set_iT3_25(L_10);
 		return;
 	}

@@ -59,9 +59,18 @@ extern "C"  void Collection_1_System_Collections_IList_Insert_m3303840316_gshare
 // System.Void System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.Remove(System.Object)
 extern "C"  void Collection_1_System_Collections_IList_Remove_m698976938_gshared (Collection_1_t1039942668 * __this, Il2CppObject * ___value0, const MethodInfo* method);
 #define Collection_1_System_Collections_IList_Remove_m698976938(__this, ___value0, method) ((  void (*) (Collection_1_t1039942668 *, Il2CppObject *, const MethodInfo*))Collection_1_System_Collections_IList_Remove_m698976938_gshared)(__this, ___value0, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool Collection_1_System_Collections_ICollection_get_IsSynchronized_m1622338911_gshared (Collection_1_t1039942668 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_ICollection_get_IsSynchronized_m1622338911(__this, method) ((  bool (*) (Collection_1_t1039942668 *, const MethodInfo*))Collection_1_System_Collections_ICollection_get_IsSynchronized_m1622338911_gshared)(__this, method)
 // System.Object System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.ICollection.get_SyncRoot()
 extern "C"  Il2CppObject * Collection_1_System_Collections_ICollection_get_SyncRoot_m815502691_gshared (Collection_1_t1039942668 * __this, const MethodInfo* method);
 #define Collection_1_System_Collections_ICollection_get_SyncRoot_m815502691(__this, method) ((  Il2CppObject * (*) (Collection_1_t1039942668 *, const MethodInfo*))Collection_1_System_Collections_ICollection_get_SyncRoot_m815502691_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool Collection_1_System_Collections_IList_get_IsFixedSize_m1624702704_gshared (Collection_1_t1039942668 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_get_IsFixedSize_m1624702704(__this, method) ((  bool (*) (Collection_1_t1039942668 *, const MethodInfo*))Collection_1_System_Collections_IList_get_IsFixedSize_m1624702704_gshared)(__this, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool Collection_1_System_Collections_IList_get_IsReadOnly_m2329986891_gshared (Collection_1_t1039942668 * __this, const MethodInfo* method);
+#define Collection_1_System_Collections_IList_get_IsReadOnly_m2329986891(__this, method) ((  bool (*) (Collection_1_t1039942668 *, const MethodInfo*))Collection_1_System_Collections_IList_get_IsReadOnly_m2329986891_gshared)(__this, method)
 // System.Object System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>::System.Collections.IList.get_Item(System.Int32)
 extern "C"  Il2CppObject * Collection_1_System_Collections_IList_get_Item_m416006758_gshared (Collection_1_t1039942668 * __this, int32_t ___index0, const MethodInfo* method);
 #define Collection_1_System_Collections_IList_get_Item_m416006758(__this, ___index0, method) ((  Il2CppObject * (*) (Collection_1_t1039942668 *, int32_t, const MethodInfo*))Collection_1_System_Collections_IList_get_Item_m416006758_gshared)(__this, ___index0, method)
@@ -125,3 +134,9 @@ extern "C"  CustomAttributeTypedArgument_t1498197914  Collection_1_ConvertItem_m
 // System.Void System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>::CheckWritable(System.Collections.Generic.IList`1<T>)
 extern "C"  void Collection_1_CheckWritable_m2334289660_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* ___list0, const MethodInfo* method);
 #define Collection_1_CheckWritable_m2334289660(__this /* static, unused */, ___list0, method) ((  void (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Collection_1_CheckWritable_m2334289660_gshared)(__this /* static, unused */, ___list0, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>::IsSynchronized(System.Collections.Generic.IList`1<T>)
+extern "C"  bool Collection_1_IsSynchronized_m3261594010_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* ___list0, const MethodInfo* method);
+#define Collection_1_IsSynchronized_m3261594010(__this /* static, unused */, ___list0, method) ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Collection_1_IsSynchronized_m3261594010_gshared)(__this /* static, unused */, ___list0, method)
+// System.Boolean System.Collections.ObjectModel.Collection`1<System.Reflection.CustomAttributeTypedArgument>::IsFixedSize(System.Collections.Generic.IList`1<T>)
+extern "C"  bool Collection_1_IsFixedSize_m162922409_gshared (Il2CppObject * __this /* static, unused */, Il2CppObject* ___list0, const MethodInfo* method);
+#define Collection_1_IsFixedSize_m162922409(__this /* static, unused */, ___list0, method) ((  bool (*) (Il2CppObject * /* static, unused */, Il2CppObject*, const MethodInfo*))Collection_1_IsFixedSize_m162922409_gshared)(__this /* static, unused */, ___list0, method)

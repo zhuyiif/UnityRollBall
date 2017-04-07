@@ -23,10 +23,16 @@ extern "C" void DelegatePInvokeWrapper_LogCallback_t1867914413 ();
 extern "C" void DelegatePInvokeWrapper_PCMReaderCallback_t3007145346 ();
 extern "C" void DelegatePInvokeWrapper_PCMSetPositionCallback_t421863554 ();
 extern "C" void DelegatePInvokeWrapper_AudioConfigurationChangeHandler_t3743753033 ();
+extern "C" void DelegatePInvokeWrapper_WillRenderCanvases_t3522132132 ();
 extern "C" void DelegatePInvokeWrapper_StateChanged_t2480912210 ();
 extern "C" void DelegatePInvokeWrapper_DisplaysUpdatedDelegate_t3423469815 ();
+extern "C" void DelegatePInvokeWrapper_UnityAction_t4025899511 ();
+extern "C" void DelegatePInvokeWrapper_FontTextureRebuildCallback_t1272078033 ();
+extern "C" void DelegatePInvokeWrapper_WindowFunction_t3486805455 ();
+extern "C" void DelegatePInvokeWrapper_SkinChangedDelegate_t3594822336 ();
 extern "C" void DelegatePInvokeWrapper_UpdatedEventHandler_t3033456180 ();
-extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[15] = 
+extern "C" void DelegatePInvokeWrapper_OnValidateInput_t1946318473 ();
+extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[21] = 
 {
 	DelegatePInvokeWrapper_AppDomainInitializer_t3898244613,
 	DelegatePInvokeWrapper_Swapper_t2637371637,
@@ -40,7 +46,13 @@ extern const Il2CppMethodPointer g_DelegateWrappersManagedToNative[15] =
 	DelegatePInvokeWrapper_PCMReaderCallback_t3007145346,
 	DelegatePInvokeWrapper_PCMSetPositionCallback_t421863554,
 	DelegatePInvokeWrapper_AudioConfigurationChangeHandler_t3743753033,
+	DelegatePInvokeWrapper_WillRenderCanvases_t3522132132,
 	DelegatePInvokeWrapper_StateChanged_t2480912210,
 	DelegatePInvokeWrapper_DisplaysUpdatedDelegate_t3423469815,
+	DelegatePInvokeWrapper_UnityAction_t4025899511,
+	DelegatePInvokeWrapper_FontTextureRebuildCallback_t1272078033,
+	DelegatePInvokeWrapper_WindowFunction_t3486805455,
+	DelegatePInvokeWrapper_SkinChangedDelegate_t3594822336,
 	DelegatePInvokeWrapper_UpdatedEventHandler_t3033456180,
+	DelegatePInvokeWrapper_OnValidateInput_t1946318473,
 };

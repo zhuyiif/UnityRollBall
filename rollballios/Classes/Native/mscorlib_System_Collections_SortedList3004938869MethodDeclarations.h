@@ -45,6 +45,8 @@ extern "C"  void SortedList__cctor_m2875591912 (Il2CppObject * __this /* static,
 extern "C"  Il2CppObject * SortedList_System_Collections_IEnumerable_GetEnumerator_m561951806 (SortedList_t3004938869 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.SortedList::get_Count()
 extern "C"  int32_t SortedList_get_Count_m989621893 (SortedList_t3004938869 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.SortedList::get_IsSynchronized()
+extern "C"  bool SortedList_get_IsSynchronized_m1455943838 (SortedList_t3004938869 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.SortedList::get_SyncRoot()
 extern "C"  Il2CppObject * SortedList_get_SyncRoot_m3299704254 (SortedList_t3004938869 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.SortedList::get_IsFixedSize()

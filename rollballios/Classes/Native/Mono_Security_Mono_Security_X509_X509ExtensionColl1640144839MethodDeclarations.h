@@ -36,4 +36,4 @@ extern "C"  Il2CppObject * X509ExtensionCollection_System_Collections_IEnumerabl
 // System.Int32 Mono.Security.X509.X509ExtensionCollection::IndexOf(System.String)
 extern "C"  int32_t X509ExtensionCollection_IndexOf_m3972100651 (X509ExtensionCollection_t1640144840 * __this, String_t* ___oid0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Extension Mono.Security.X509.X509ExtensionCollection::get_Item(System.String)
-extern "C"  X509Extension_t1439760128 * X509ExtensionCollection_get_Item_m1497604741 (X509ExtensionCollection_t1640144840 * __this, String_t* ___oid0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  X509Extension_t1439760128 * X509ExtensionCollection_get_Item_m4212651995 (X509ExtensionCollection_t1640144840 * __this, String_t* ___oid0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

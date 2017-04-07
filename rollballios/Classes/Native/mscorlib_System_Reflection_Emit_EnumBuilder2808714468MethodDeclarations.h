@@ -130,5 +130,7 @@ extern "C"  bool EnumBuilder_IsPrimitiveImpl_m3485654502 (EnumBuilder_t280871446
 extern "C"  bool EnumBuilder_IsValueTypeImpl_m3635754638 (EnumBuilder_t2808714468 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.EnumBuilder::IsDefined(System.Type,System.Boolean)
 extern "C"  bool EnumBuilder_IsDefined_m255842204 (EnumBuilder_t2808714468 * __this, Type_t * ___attributeType0, bool ___inherit1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Reflection.Emit.EnumBuilder::MakeByRefType()
+extern "C"  Type_t * EnumBuilder_MakeByRefType_m3504630835 (EnumBuilder_t2808714468 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Exception System.Reflection.Emit.EnumBuilder::CreateNotSupportedException()
 extern "C"  Exception_t1927440687 * EnumBuilder_CreateNotSupportedException_m62763134 (EnumBuilder_t2808714468 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;

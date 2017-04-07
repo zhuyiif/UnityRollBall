@@ -156,6 +156,8 @@ extern "C"  bool TypeBuilder_IsPointerImpl_m3046705585 (TypeBuilder_t3308873219 
 extern "C"  bool TypeBuilder_IsPrimitiveImpl_m3315689435 (TypeBuilder_t3308873219 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Reflection.Emit.TypeBuilder::IsValueTypeImpl()
 extern "C"  bool TypeBuilder_IsValueTypeImpl_m1499671481 (TypeBuilder_t3308873219 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Reflection.Emit.TypeBuilder::MakeByRefType()
+extern "C"  Type_t * TypeBuilder_MakeByRefType_m2042877922 (TypeBuilder_t3308873219 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Emit.TypeBuilder::MakeGenericType(System.Type[])
 extern "C"  Type_t * TypeBuilder_MakeGenericType_m4282022646 (TypeBuilder_t3308873219 * __this, TypeU5BU5D_t1664964607* ___typeArguments0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.RuntimeTypeHandle System.Reflection.Emit.TypeBuilder::get_TypeHandle()

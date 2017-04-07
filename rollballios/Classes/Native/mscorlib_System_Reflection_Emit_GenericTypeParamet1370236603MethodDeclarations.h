@@ -156,5 +156,7 @@ extern "C"  String_t* GenericTypeParameterBuilder_ToString_m4223425511 (GenericT
 extern "C"  bool GenericTypeParameterBuilder_Equals_m2498927509 (GenericTypeParameterBuilder_t1370236603 * __this, Il2CppObject * ___o0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Reflection.Emit.GenericTypeParameterBuilder::GetHashCode()
 extern "C"  int32_t GenericTypeParameterBuilder_GetHashCode_m867619899 (GenericTypeParameterBuilder_t1370236603 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Type System.Reflection.Emit.GenericTypeParameterBuilder::MakeByRefType()
+extern "C"  Type_t * GenericTypeParameterBuilder_MakeByRefType_m4279657370 (GenericTypeParameterBuilder_t1370236603 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Type System.Reflection.Emit.GenericTypeParameterBuilder::MakeGenericType(System.Type[])
 extern "C"  Type_t * GenericTypeParameterBuilder_MakeGenericType_m2955814622 (GenericTypeParameterBuilder_t1370236603 * __this, TypeU5BU5D_t1664964607* ___typeArguments0, const MethodInfo* method) IL2CPP_METHOD_ATTR;

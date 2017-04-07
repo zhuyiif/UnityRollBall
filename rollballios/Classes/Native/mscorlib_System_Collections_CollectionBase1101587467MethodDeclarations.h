@@ -35,6 +35,8 @@ extern "C"  void CollectionBase__ctor_m2525885291 (CollectionBase_t1101587467 * 
 extern "C"  void CollectionBase_System_Collections_ICollection_CopyTo_m92374031 (CollectionBase_t1101587467 * __this, Il2CppArray * ___array0, int32_t ___index1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.CollectionBase::System.Collections.ICollection.get_SyncRoot()
 extern "C"  Il2CppObject * CollectionBase_System_Collections_ICollection_get_SyncRoot_m3858827859 (CollectionBase_t1101587467 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.CollectionBase::System.Collections.ICollection.get_IsSynchronized()
+extern "C"  bool CollectionBase_System_Collections_ICollection_get_IsSynchronized_m1494316047 (CollectionBase_t1101587467 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Int32 System.Collections.CollectionBase::System.Collections.IList.Add(System.Object)
 extern "C"  int32_t CollectionBase_System_Collections_IList_Add_m2327469271 (CollectionBase_t1101587467 * __this, Il2CppObject * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean System.Collections.CollectionBase::System.Collections.IList.Contains(System.Object)
@@ -45,6 +47,10 @@ extern "C"  int32_t CollectionBase_System_Collections_IList_IndexOf_m641329609 (
 extern "C"  void CollectionBase_System_Collections_IList_Insert_m2461606092 (CollectionBase_t1101587467 * __this, int32_t ___index0, Il2CppObject * ___value1, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::System.Collections.IList.Remove(System.Object)
 extern "C"  void CollectionBase_System_Collections_IList_Remove_m2931078938 (CollectionBase_t1101587467 * __this, Il2CppObject * ___value0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.CollectionBase::System.Collections.IList.get_IsFixedSize()
+extern "C"  bool CollectionBase_System_Collections_IList_get_IsFixedSize_m499578880 (CollectionBase_t1101587467 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+// System.Boolean System.Collections.CollectionBase::System.Collections.IList.get_IsReadOnly()
+extern "C"  bool CollectionBase_System_Collections_IList_get_IsReadOnly_m2883787483 (CollectionBase_t1101587467 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Object System.Collections.CollectionBase::System.Collections.IList.get_Item(System.Int32)
 extern "C"  Il2CppObject * CollectionBase_System_Collections_IList_get_Item_m2370387510 (CollectionBase_t1101587467 * __this, int32_t ___index0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Void System.Collections.CollectionBase::System.Collections.IList.set_Item(System.Int32,System.Object)

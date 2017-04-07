@@ -43,17 +43,17 @@ extern "C"  void X509Crl__ctor_m2469408229 (X509Crl_t1699034837 * __this, ByteU5
 // System.Void Mono.Security.X509.X509Crl::Parse(System.Byte[])
 extern "C"  void X509Crl_Parse_m3287862528 (X509Crl_t1699034837 * __this, ByteU5BU5D_t3397334013* ___crl0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509ExtensionCollection Mono.Security.X509.X509Crl::get_Extensions()
-extern "C"  X509ExtensionCollection_t1640144840 * X509Crl_get_Extensions_m4055821100 (X509Crl_t1699034837 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  X509ExtensionCollection_t1640144840 * X509Crl_get_Extensions_m1795830276 (X509Crl_t1699034837 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Byte[] Mono.Security.X509.X509Crl::get_Hash()
 extern "C"  ByteU5BU5D_t3397334013* X509Crl_get_Hash_m3617397429 (X509Crl_t1699034837 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.X509Crl::get_IssuerName()
-extern "C"  String_t* X509Crl_get_IssuerName_m4008957916 (X509Crl_t1699034837 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  String_t* X509Crl_get_IssuerName_m756409840 (X509Crl_t1699034837 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.DateTime Mono.Security.X509.X509Crl::get_NextUpdate()
-extern "C"  DateTime_t693205669  X509Crl_get_NextUpdate_m732409688 (X509Crl_t1699034837 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  DateTime_t693205669  X509Crl_get_NextUpdate_m45665244 (X509Crl_t1699034837 * __this, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.X509.X509Crl::Compare(System.Byte[],System.Byte[])
 extern "C"  bool X509Crl_Compare_m2229641633 (X509Crl_t1699034837 * __this, ByteU5BU5D_t3397334013* ___array10, ByteU5BU5D_t3397334013* ___array21, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Crl/X509CrlEntry Mono.Security.X509.X509Crl::GetCrlEntry(Mono.Security.X509.X509Certificate)
-extern "C"  X509CrlEntry_t743353844 * X509Crl_GetCrlEntry_m1677459928 (X509Crl_t1699034837 * __this, X509Certificate_t324051958 * ___x5090, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  X509CrlEntry_t743353844 * X509Crl_GetCrlEntry_m630720316 (X509Crl_t1699034837 * __this, X509Certificate_t324051958 * ___x5090, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // Mono.Security.X509.X509Crl/X509CrlEntry Mono.Security.X509.X509Crl::GetCrlEntry(System.Byte[])
 extern "C"  X509CrlEntry_t743353844 * X509Crl_GetCrlEntry_m550904265 (X509Crl_t1699034837 * __this, ByteU5BU5D_t3397334013* ___serialNumber0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.String Mono.Security.X509.X509Crl::GetHashName()
@@ -63,4 +63,4 @@ extern "C"  bool X509Crl_VerifySignature_m25190802 (X509Crl_t1699034837 * __this
 // System.Boolean Mono.Security.X509.X509Crl::VerifySignature(System.Security.Cryptography.RSA)
 extern "C"  bool X509Crl_VerifySignature_m25189948 (X509Crl_t1699034837 * __this, RSA_t3719518354 * ___rsa0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
 // System.Boolean Mono.Security.X509.X509Crl::VerifySignature(System.Security.Cryptography.AsymmetricAlgorithm)
-extern "C"  bool X509Crl_VerifySignature_m833718649 (X509Crl_t1699034837 * __this, AsymmetricAlgorithm_t784058677 * ___aa0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
+extern "C"  bool X509Crl_VerifySignature_m1390212587 (X509Crl_t1699034837 * __this, AsymmetricAlgorithm_t784058677 * ___aa0, const MethodInfo* method) IL2CPP_METHOD_ATTR;
